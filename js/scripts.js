@@ -14,7 +14,8 @@ $(document).ready(function() { //this calls on the jquery page
 
     console.log(newFavThings)
 
-    $("ul#listOutput").html("<li>" + newFavThings[2] "</li>" + "<li>" + newFavThings[1] + "</li>" + "<li>" + newFavThings[2] + "</li>"); //outputting to an id
 
+    //is there a better way to do this. 
+    $("ul#listOutput").html("<li>" + newFavThings[2] + "</li>" + "<li>" + newFavThings[1] + "</li>" + "<li>" + newFavThings[0] + "</li>"); //outputting to an id
   });
 });

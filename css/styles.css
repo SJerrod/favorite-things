@@ -3,6 +3,7 @@ h1 {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.container {
-  
+body {
+  background-size: cover;
+  background-image: url(../img/waves.png);
 }
